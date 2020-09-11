@@ -13,6 +13,7 @@ const App = () => {
 
     return (
         <>
+        <h1>Pokemon Generator!!!!</h1>
         <ApolloProvider client={client}>
             <main>
                 <PokemonContainer/>

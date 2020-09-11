@@ -1,12 +1,8 @@
-/* RESETS
-=========================================== */
 html {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
-    -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
 
@@ -17,13 +13,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #202020;
     background-color: #fbfbfb;
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
-/* POKEMON APPLICATION
-=========================================== */
 .container {
     display: flex;
     max-width: 550px;
